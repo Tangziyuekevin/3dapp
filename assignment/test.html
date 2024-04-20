@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>X3DOM Sprite Bottle</title>
+  <script type="text/javascript" src="https://www.x3dom.org/download/dev/x3dom.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://www.x3dom.org/download/dev/x3dom.css">
+</head>
+<body>
+<h1>X3DOM Sprite Bottle</h1>
+<x3d width="800px" height="600px">
+  <Scene>
+    <!-- Coca-Cola Bottle -->
+    <Transform translation="0 0 0">
+      <!-- Bottle Body -->
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0.8 0.2 0.2" specularColor="0.5 0.5 0.5" shininess="0.5"></Material>
+        </Appearance>
+        <Cylinder height="2" radius="1"></Cylinder>
+      </Shape>
+      <!-- Bottle Cap -->
+      <Transform translation="0 0 2">
+        <Shape>
+          <Appearance>
+            <Material diffuseColor="0.2 0.2 0.2" specularColor="0.8 0.8 0.8"></Material>
+          </Appearance>
+          <Cylinder height="0.1" radius="1"></Cylinder>
+        </Shape>
+      </Transform>
+    </Transform>
+  </Scene>
+</x3d>
+</body>
+</html>
