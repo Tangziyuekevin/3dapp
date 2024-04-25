@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'cocaColaFont';
+    src: url("./lokicola.ttf"),
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    max-width:1200px;
+    margin:0 auto;
+    position:relative;
+}
+@media (min-width: 1200px) {
+    .top-nav{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        width: 1200px;
+    }
+}
+@media (max-width: 1200px) {
+    .top-nav{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        width: 100%;
+    }
+}
+
+#carouselExampleCaptions{
+    margin-top:50px;
+}
+.logo{
+    color: rgb(245, 235, 235);
+}
+.logo h2{
+    font-family: cocaColaFont;
+    font-size: 59px;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.logo h3{
+    font-size: 30px;
+    margin-top: -12px;
+    margin-bottom: -5px;
+    padding-top: -12px;
+    padding-left: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+.list{
+    font-size: 24px;
+    line-height: 33px;
+    color: #262626;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+.content{
+    /*background-color: rgb(248, 249, 250);*/
+}
+.card{
+    margin-bottom:15px;
+    border:1px rgb(248, 249, 250) solid;
+    min-height: 220px;
+    background-color: rgb(248, 249, 250);
+}
+.card-body{
+    width:130%;
+}
+.pagination{
+    margin: 0px auto;
+    width: 120px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.modal-body{
+    position:absolute;
+    background:transparent;
+    left: 200px;
+}
+.navbar-nav .active{
+    background:#8f9cbf;
+}
+.navbar-nav .active a{
+    color:white !important;
+}
